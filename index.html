@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Special Person</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+
+        h1 {
+            color: #ff6347;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .gift-box {
+            width: 500px;
+            height: 667px;
+            background-color: #ffeb3b;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        .gift-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .message {
+            font-size: 1.8em;
+            color: #5f6368;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h3 {
+                font-size: 1.5em;
+            }
+
+            .gift-box {
+                width: 90%;
+                height: auto;
+                padding: 10px;
+            }
+
+            .gift-box img {
+                width: 100%;
+                height: auto;
+            }
+
+            .footer {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h3 {
+                font-size: 1.3em;
+            }
+
+            .gift-box {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .message {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎁 Merry Christmas 🎁 </h1>
+
+    <h3>A Christmas Tree For You</h3>
+
+    <div class="gift-box">
+	
+    <!-- Image for smaller screens (below 768px) -->
+     <source srcset="dave-tree-small.png" media="(max-width: 767px)">
+    <!-- Image for larger screens (768px and above) -->
+    <picture><img src="daves-tree.png" alt="Picture of David" name="Image1"></picture>
+
+         <p></p> 
+    </div>
+
+    <div class="footer">
+        <p> <strong>Earl</strong></p>
+    </div>
+
+</body>
+</html>
